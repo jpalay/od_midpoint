@@ -1,0 +1,27 @@
+/* Color scheme: http://www.colourlovers.com/palette/49963/let_them_eat_cake */
+
+#first_container
+{
+	float: left;
+	width: 50%;
+	padding: 0% 2.5% 0% 0%;
+}
+
+#first
+{
+	margin: 0px 0px 15px 0px;
+	width: 100%;
+}
+
+#second
+{
+	margin: 0px;
+	width: 100%;
+}
+
+#third
+{
+	float: left;
+	width: 47.5%;
+	margin: 0% 0% 0% 2.5%;
+}

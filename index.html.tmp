@@ -1,0 +1,15 @@
+{% extends "base.html.tmp" %}
+{% block title %}Josh Palay{% endblock %}
+
+{% block css %}
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+{% endblock %}
+
+{% block content %}
+<div class="info_box">
+	<h2>i'm awesome.</h2>
+	<p>
+		Mumblecore DIY artisan four loko locavore. Ethnic vice fixie, cred irony jean shorts pork belly tonx aesthetic williamsburg. Try-hard quinoa hashtag, tattooed artisan terry richardson retro deep v tonx polaroid occupy vinyl. Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore. Odd future tattooed fap portland four loko, seitan banksy letterpress mumblecore flexitarian ethical beard iphone. Deep v retro squid, +1 typewriter jean shorts banksy tattooed tumblr ethnic cardigan kale chips. 
+	</p>
+</div>
+{% endblock %}

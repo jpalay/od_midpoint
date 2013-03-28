@@ -1,0 +1,51 @@
+{% extends "base.html.tmp" %}
+{% block title %}Josh Palay{% endblock %}
+{% block css %}
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+{% endblock %}
+{% block js %}
+	<script type="text/javascript" src="js/portfolio.js"></script>
+{% endblock %}
+
+{% block content %}
+<!-- hipster ipsum http://hipsteripsum.me/ -->
+<div class="info_box project">
+	<div class="pic_container">
+		<a href="http://harvardq.com/demo"><img src="img/projects/graph.png" alt="Historical ratings for a Harvard course"></a>
+	</div>
+	<div class="project_info">
+		<a href="http://harvardq.com/demo"><h2>HarvardQ (Python/Django, 2013)</h2></a>
+		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+	</div>
+</div>
+
+<div class="info_box project">
+	<div class="pic_container">
+		<img src="img/projects/granddog.png" alt="Granddog peeing on a hydrant">
+	</div>
+	<div class="project_info">
+		<h2>Granddog's Great Adventure (Java, 2011)</h2>
+		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+	</div>
+</div>
+
+<div class="info_box project">
+	<div class="pic_container">
+		<img src="img/projects/blackjack.png" alt="Blackjack screenshot">
+	</div>
+	<div class="project_info">
+		<h2>Blackjack (Java, 2010)</h2>
+		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+	</div>
+</div>
+
+<div class="info_box project">
+	<div class="pic_container">
+		<img src="img/projects/ttt.png" alt="Console-based Tic-Tac-Toe game">
+	</div>
+	<div class="project_info">
+		<h2>Tic-Tac-Toe (Java, 2010)</h2>
+		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+/* Color scheme: http://www.colourlovers.com/palette/49963/let_them_eat_cake */
+
+.info_box
+{
+	margin-bottom: 100px;
+	overflow: auto;
+}
+
+.info_box > h2
+{
+	float: left;
+}
+
+.half
+{
+	/*display: inline-block;*/
+	float: left;
+	width: 50%;
+	height: 100px;
+	margin: 0%;
+}
+
+#first
+{
+	clear: left;
+	border-right: solid 1px #101;
+}
+
+#second
+{
+	border-left: solid 1px #CCC;
+}

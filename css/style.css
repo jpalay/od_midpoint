@@ -1,0 +1,190 @@
+/* Color scheme: http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_. */
+
+*
+{
+	/*font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	padding: 0%;
+	margin: 0%;
+	color: #1C140D;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	/* Background image used without permission from http://i.imgur.com/xvF4go4.jpg */
+	background: url(../img/bgimg.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size:    cover;
+	-o-background-size:      cover;
+	background-size:         cover;
+}
+
+#top
+{
+	width: 100%;
+	height: 8px;
+	margin-bottom: 16px;
+	background-color: rgb(48,89,9);
+}
+
+h1, h2, h3
+{
+	color: rgb(48,89,9);
+	font-weight: 700;
+	font-size: 2.5em;
+	margin: 0.5em;
+	display: inline-block;
+}
+
+h2
+{
+	font-size: 2em;
+}
+
+h3
+{
+	font-size: 1.7em;
+}
+
+header
+{
+	margin-bottom: 100px;
+}
+
+nav
+{
+	width: 90%;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+nav *
+{
+	display: inline-block;
+}
+
+#name
+{
+	text-align: center;
+	width: 19%;
+	padding: 0% 2% 0% 2%;
+	border-right: 5px solid rgb(48,89,9);
+	margin: 0%;
+	float: left;
+}
+
+#name > h1
+{
+	margin: 0%;
+}
+
+nav ul
+{
+	float: left;
+	width: 80%;
+	padding: 0%;
+	margin: 0%;
+}
+
+nav li
+{
+	width: 25%;
+	height: 46px;
+	line-height: 46px;
+	float: left;
+	text-align: center;
+	list-style: none;
+
+	-webkit-border-radius: 12px; 
+	-moz-border-radius:    12px;
+	border-radius:         12px; 
+
+	-ms-transition:     background-color .25s; /* Firefox 4 */	
+	-o-transition:      background-color .25s; /* Opera */
+	-moz-transition:    background-color .25s; /* Firefox 4 */
+	-webkit-transition: background-color .25s; /* Safari and Chrome */
+}
+
+nav li:hover
+{
+	/*border-bottom-color: rgba(48,89,9,1);*/
+	background-color: rgba(191,184,178,0.8);
+
+	-ms-transition:     background-color .25s; /* Firefox 4 */	
+	-o-transition:      background-color .25s; /* Opera */
+	-moz-transition:    background-color .25s; /* Firefox 4 */
+	-webkit-transition: background-color .25s; /* Safari and Chrome */
+}
+
+nav li a
+{
+	font-size: 1.5em;
+	list-style: none;
+	text-decoration: none;
+	width: 100%;
+}
+
+.info_box
+{
+	background-color: rgba(242, 233, 225, .8);
+	box-shadow: 3px 3px 1px #C7BFB7;
+	padding: 1.5em;	
+}
+
+nav.info_box
+{
+	box-shadow: none;
+	padding: 8px;
+}
+
+.info_box h2
+{
+	margin: 0em 0em .3em 0em;
+}
+
+.info_box p
+{
+	font-size: 1.1em;
+}
+
+#content
+{
+	margin: 3.5em auto 0em auto;
+	padding: 0% 4% 0% 4%;
+	width: 80%;
+}
+
+@media (max-width: 760px)
+{
+	nav
+	{
+
+	}
+
+	nav ul
+	{
+		width: 100%;
+	}
+	/*nav li
+	{
+		width: 50%;
+		padding: auto;
+	}*/
+
+	#name
+	{
+		width: 100%;
+		border: none;
+	}
+
+	#content
+	{
+		width: 100%;
+	}
+}
+
+
+

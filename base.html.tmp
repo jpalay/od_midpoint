@@ -1,0 +1,31 @@
+<!DOCTYPE HMTL>
+<html>
+	<head>
+		<title>{% block title %}{% endblock %}</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='css/fonts/fonts.css' rel='stylesheet' type='text/css'>
+		{% block css %}{% endblock %}
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		{% block js %}{% endblock %}
+	</head>
+	<body>
+		<header>
+			<div id="top"></div>
+			<nav class="info_box">
+				<a id="name" href="index.html"><h1>josh</h1></a>
+				<ul>
+					<li><a href="about.html">about</a></li>
+					<li><a href="portfolio.html">portfolio</a></li>
+					<li><a href="gallery.html">gallery</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="content">
+			{% block content %}
+			{% endblock %}
+		</div>
+			{% block other_html %}{% endblock %}
+	</body>
+</html>
