@@ -51,7 +51,7 @@ h3
 
 header
 {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 nav
@@ -152,27 +152,18 @@ nav.info_box
 
 #content
 {
-	margin: 3.5em auto 0em auto;
+	margin: 0px auto;
 	padding: 0% 4% 0% 4%;
 	width: 80%;
 }
 
 @media (max-width: 760px)
 {
-	nav
-	{
-
-	}
 
 	nav ul
 	{
 		width: 100%;
 	}
-	/*nav li
-	{
-		width: 50%;
-		padding: auto;
-	}*/
 
 	#name
 	{
@@ -186,5 +177,11 @@ nav.info_box
 	}
 }
 
-
+@media (max-width: 479px)
+{
+	nav li
+	{
+		width: 50%;
+	}
+}
 
