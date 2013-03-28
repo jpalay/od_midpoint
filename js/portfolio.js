@@ -1,27 +1,23 @@
-var pic_container_height = 0;
-
 $(function(){
-	pic_container_height = $(".pic_container").height();
+	var container_height = $(".project").height();
 
 	$(window).resize(function() {
         delay(function(){
-            vertically_center_img("fast");
+            if (window.innerWidth >= 760)
+                vertically_center_img("fast");
         }, 100);
     });
-
-    delay(function(){
-        vertically_center_img("fast");
-    }, 500);
+    if (window.innerWidth >= 760)
+        delay(function(){
+            vertically_center_img("fast");
+        }, 500);
 });
-
-// $(".pic_container img").load(function(){
-// 	vertically_center_img("fast");
-// });
 
 function vertically_center_img(speed)
 {
+    var container_height = $(".project").height();
 	var img = $(".pic_container img");
-	margin_top = (pic_container_height - img.height())/2;
+	margin_top = (container_height - img.height())/2;
 	console.log(img.height());
 	img.animate({
 		marginTop: margin_top

@@ -7,9 +7,10 @@
 
 .project
 {
-	height: 200px;
+	/*height: auto;*/
 	padding: 25px 25px 25px 0px;
 	margin: 25px 0px 0px auto;
+	overflow: auto;
 }
 
 .project:first-child
@@ -28,7 +29,6 @@
 	width: 24%;
 	height: 150px;
 	padding: 0% 3% 0% 3%;
-	border-right: 1px solid #666;
 }
 
 .pic_container  img
@@ -41,12 +41,34 @@
 {
 	float: left;
 	width: 76%;
-	height: 100%;
-	border-left: 1px solid #1C140D;
 	padding-left: 3%;
 }
 
 a > h2:hover
 {
 	text-decoration: underline;
+}
+
+@media (max-width: 760px)
+{
+	.pic_container
+	{
+		float: none;
+		width: 100%;
+		height: auto;
+		border: none;
+		margin: 0px;
+	}
+
+	.pic_container img
+	{
+		margin: 0px auto;
+	}
+
+	.project_info
+	{
+		float: none;
+		text-align: center;
+		margin: 20px auto 0px auto;
+	}
 }

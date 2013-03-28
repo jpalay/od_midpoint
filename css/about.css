@@ -25,3 +25,21 @@
 	width: 47.5%;
 	margin: 0% 0% 0% 2.5%;
 }
+
+@media (max-width: 620px)
+{
+	#first_container
+	{
+		float: none;
+		width: 100%;
+		padding: 0px;
+		margin-bottom: 20px;
+	} 
+
+	#third
+	{
+		float: none;
+		margin: 0px;
+		width: 100%;
+	}
+}
