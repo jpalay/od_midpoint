@@ -1,3 +1,3 @@
-#Online Design Midpoint
+#Personal Website
 
-I was'nt able to get everything done, but I'll do my best to finish it up sometime soon
+A site all about me :D

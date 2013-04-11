@@ -8,8 +8,8 @@
 	<h2>contact</h2>
 	<div class="half" id="first">
 		<dl>
-			<dt>phone:</dt>
-			<dd>(847) 404-8821</dd>
+			<!-- <dt>phone:</dt>
+			<dd>(847) 404-8821</dd> -->
 		</dl>
 	</div>
 	<div class="half" id="second"></div>

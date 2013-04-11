@@ -11,11 +11,11 @@
 <!-- hipster ipsum http://hipsteripsum.me/ -->
 <div class="info_box project">
 	<div class="pic_container">
-		<a href="http://harvardq.com/demo"><img src="img/projects/graph.png" alt="Historical ratings for a Harvard course"></a>
+		<a href="http://preview.harvardq.com/demo"><img src="img/projects/graph.png" alt="Historical ratings for a Harvard course"></a>
 	</div>
 	<div class="project_info">
-		<a href="http://harvardq.com/demo"><h2>HarvardQ (Python/Django, 2013)</h2></a>
-		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+		<a href="http://preview.harvardq.com/demo"><h2>HarvardQ (Python/Django, 2013)</h2></a>
+		<p>A new way to view Harvard's official course ratings. Immediately search for courses, browse by department, and see trends with historical graphs. This project made it to the final round of Harvard's I3 Innovation Challenge.  The full site isn't available to the public, but be sure to check out our <a href="http://preview.harvardq.com/demo">demo</a>!</p>
 	</div>
 </div>
 
@@ -25,7 +25,7 @@
 	</div>
 	<div class="project_info">
 		<h2>Granddog's Great Adventure (Java, 2011)</h2>
-		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+		<p>Help Mr. Gasper's granddog find his grandfather!  A side-scrolling game framework written in Java and implemented as an applet. AP Computer Science final project, 2011.</p>
 	</div>
 </div>
 
@@ -35,17 +35,17 @@
 	</div>
 	<div class="project_info">
 		<h2>Blackjack (Java, 2010)</h2>
-		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+		<p></p>
 	</div>
 </div>
 
-<div class="info_box project">
+<!-- <div class="info_box project">
 	<div class="pic_container">
 		<img src="img/projects/ttt.png" alt="Console-based Tic-Tac-Toe game">
 	</div>
 	<div class="project_info">
 		<h2>Tic-Tac-Toe (Java, 2010)</h2>
-		<p>Seitan four loko odd future hashtag bicycle rights scenester fap irony. Portland you probably haven't heard of them mixtape ugh vice, tousled bespoke mumblecore.</p>
+		<p>Super-secret extra-special project!!  Terminal-based Tic-Tac-Toe game. Really nothing too special, but it was my first real program, and I'm proud of it :D</p>
 	</div>
-</div>
+</div> -->
 {% endblock %}

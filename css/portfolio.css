@@ -44,24 +44,32 @@
 	padding-left: 3%;
 }
 
-a > h2:hover
+p > a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(48,89,9);
+}
+
+a > h2:hover, p > a:hover
 {
 	text-decoration: underline;
 }
 
 @media (max-width: 760px)
 {
+	.project
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
 	.pic_container
 	{
 		float: none;
 		width: 100%;
 		height: auto;
 		border: none;
-		margin: 0px;
-	}
-
-	.pic_container img
-	{
 		margin: 0px auto;
 	}
 
@@ -70,5 +78,6 @@ a > h2:hover
 		float: none;
 		text-align: center;
 		margin: 20px auto 0px auto;
+		padding: 0px;
 	}
 }
